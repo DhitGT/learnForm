@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="BG"></div>
+    <div class="container">
+        <form action="">
+            <table>
+                <tr>
+                    <th width="30px"></th>
+                    <th width="3px"></th>
+                    <th width="200px"></th>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="nis">Nis</label>   
+                    </td>
+                    <td><p>:</p></td>
+                    <td>
+                        <input type="text" name="nis">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Nama">Nama</label>   
+                    </td>
+                    <td><p>:</p></td>
+                    <td>
+                        <input type="text" name="Nama">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="tempat">Tempat Tanggal Lahir</label>   
+                    </td>
+                    <td><p>:</p></td>
+                    <td>
+                        <input type="text" name="tempat">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="choices">Jenis Kelamin</label>   
+                    </td>
+                    <td><p>:</p></td>
+                    <td>
+                        <div class="radios">
+                            <input type="radio" id="option1" name="choices" value="option1">
+                            <label for="option1" class="lb">Laki-Laki</label>
+                            <input type="radio" id="option2" name="choices" value="option2">
+                            <label for="option2" class="lb">Perempuan</label>
+                        </div>
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="kelas">Kelas</label>   
+                    </td>
+                    <td><p>:</p></td>
+                    <td>
+                        <input type="text" name="kelas">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="jurusan">Jurusan</label> 
+                        
+                    </td>
+                    <td><p>:</p></td>
+                    <td>
+                        <select id="dropdown" name="dropdown" class="dropdown">
+                            <option value="1" class="dropdown">Rekayasa Perangkat Lunak</option>
+                            <option value="2" class="dropdown">Akuntansi</option>
+                            <option value="3" class="dropdown">Teknik komputer dan jaringan</option>
+                            <option value="4" class="dropdown">Teknik bisnis dan sepeda motor</option>
+                            <option value="5" class="dropdown">Teknik energi terbarukan</option>
+                            <option value="6" class="dropdown">Teknik elektronika industri</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="alamat">Alamat</label>   
+                    </td>
+                    <td><p>:</p></td>
+                    <td>
+                        <textarea name="alamat" id="" cols="21" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+                        <button class="btnsubmit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
