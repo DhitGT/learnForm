@@ -10,7 +10,7 @@ h1{
 }
 
 
-.BG{
+/* .BG{
     /* background-image: url("bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,8 +19,8 @@ h1{
     height: 110%;
     top: 0;
     left: 0;
-    z-index: -1; */
-}
+    z-index: -1;
+} */
 
 table{
     background-color: #0D1117;
