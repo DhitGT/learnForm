@@ -13,7 +13,7 @@
         <br>
         <br>
 
-        <form action="">
+        <form action="outputData.php" method="post">
             <table>
                 <tr>
                     <th width="30px"></th>
@@ -35,7 +35,7 @@
                     </td>
                     <td><p>:</p></td>
                     <td>
-                        <input type="text" name="Nama">
+                        <input type="text" name="nama">
                     </td>
                 </tr>
                 <tr>
@@ -49,14 +49,14 @@
                 </tr>
                 <tr>
                     <td>
-                        <label for="choices">Jenis Kelamin</label>   
+                        <label for="kelamin">Jenis Kelamin</label>   
                     </td>
                     <td><p>:</p></td>
                     <td>
-                        <div class="radios">
-                            <input type="radio" id="option1" name="choices" value="option1">
+                        <div class="radios" name="k">
+                            <input type="radio" id="option1" name="kelamin" value="Laki-Laki">
                             <label for="option1" class="lb">Laki-Laki</label>
-                            <input type="radio" id="option2" name="choices" value="option2">
+                            <input type="radio" id="option2" name="kelamin" value="Perempuan">
                             <label for="option2" class="lb">Perempuan</label>
                         </div>
                         <br>
@@ -78,13 +78,13 @@
                     </td>
                     <td><p>:</p></td>
                     <td>
-                        <select id="dropdown" name="dropdown" class="dropdown">
-                            <option value="1" class="dropdown">Rekayasa Perangkat Lunak</option>
-                            <option value="2" class="dropdown">Akuntansi</option>
-                            <option value="3" class="dropdown">Teknik komputer dan jaringan</option>
-                            <option value="4" class="dropdown">Teknik bisnis dan sepeda motor</option>
-                            <option value="5" class="dropdown">Teknik energi terbarukan</option>
-                            <option value="6" class="dropdown">Teknik elektronika industri</option>
+                        <select id="dropdown" name="jurusan" class="dropdown">
+                            <option  class="dropdown" value="Rekayasa Perangkat Lunak">Rekayasa Perangkat Lunak</option>
+                            <option  class="dropdown" value="Akuntansi">Akuntansi</option>
+                            <option  class="dropdown" value="Teknik komputer dan jaringan">Teknik komputer dan jaringan</option>
+                            <option  class="dropdown" value="Teknik bisnis dan sepeda motor">Teknik bisnis dan sepeda motor</option>
+                            <option  class="dropdown" value="Teknik energi terbarukan">Teknik energi terbarukan</option>
+                            <option  class="dropdown" value="Teknik elektronika industri">Teknik elektronika industri</option>
                         </select>
                     </td>
                 </tr>

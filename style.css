@@ -2,12 +2,14 @@ body{
     overflow-x: hidden;
     font-size: smaller;
     
+    color: wheat;
     background-color: rgb(1,4,9);
 }
 
 h1{
     color: wheat;
 }
+
 
 
 /* .BG{
