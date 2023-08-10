@@ -101,6 +101,15 @@
                     <p><?php echo $alamat ?></p>
                 </td>
             </tr>
+            <tr>
+                <td>
+                    <a href="index.php" class="">
+                        <button class="btn">BACK</button>
+                    </a>
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
         </table>
 
     </div>

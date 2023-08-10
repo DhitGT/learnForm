@@ -53,7 +53,7 @@
                     </td>
                     <td><p>:</p></td>
                     <td>
-                        <div class="radios" name="k">
+                        <div class="radios">
                             <input type="radio" id="option1" name="kelamin" value="Laki-Laki">
                             <label for="option1" class="lb">Laki-Laki</label>
                             <input type="radio" id="option2" name="kelamin" value="Perempuan">

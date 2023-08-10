@@ -1,7 +1,6 @@
 body{
     overflow-x: hidden;
     font-size: smaller;
-    
     color: wheat;
     background-color: rgb(1,4,9);
 }
@@ -39,6 +38,14 @@ table{
 }
 
 
+.btn{
+    background-color: #181b1e;
+    border: 2px wheat solid;
+    color: wheat;
+    width: 102%;
+    padding: 0.5rem 1rem;
+
+}
 
 
 
