@@ -1,3 +1,19 @@
+<?php
+$conn = mysqli_connect("localhost", "root","","db_sekolah");
+
+if (isset($_POST["submit"])){
+    $Nis = $_POST["nis"];
+    $Nama = $_POST["nama"];
+    $Kelas = $_POST["kelas"];
+    $Jurusan = $_POST["jurusan"];
+    $Alamat = $_POST["alamat"];
+    
+
+    $query = "INSERT INTO `siswa` (`Nis`, `Nama`, `Kelas`,`Jurusan`, `Alamat`) VALUES ('$Nis', '$Nama','$Kelas','$Jurusan','$Alamat' )";
+    mysqli_query($conn,$query);
+    header("Location: table.php");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +29,7 @@
         <br>
         <br>
 
-        <form action="outputData.php" method="post">
+        <form method="post">
             <table>
                 <tr>
                     <th width="30px"></th>
@@ -38,7 +54,7 @@
                         <input type="text" name="nama">
                     </td>
                 </tr>
-                <tr>
+                <!-- <tr>
                     <td>
                         <label for="tempat">Tempat Tanggal Lahir</label>   
                     </td>
@@ -61,7 +77,7 @@
                         </div>
                         <br>
                     </td>
-                </tr>
+                </tr> -->
                 <tr>
                     <td>
                         <label for="kelas">Kelas</label>   
@@ -105,7 +121,7 @@
 
                     </td>
                     <td>
-                        <button class="btnsubmit">Submit</button>
+                        <button class="btnsubmit" name="submit">Submit</button>
                     </td>
                 </tr>
             </table>

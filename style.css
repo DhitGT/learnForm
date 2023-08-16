@@ -4,6 +4,9 @@ body{
     
     color: wheat;
     background-color: rgb(1,4,9);
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{
@@ -12,17 +15,14 @@ h1{
 
 
 
-/* .BG{
-    /* background-image: url("bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+.BG{
     position: fixed;
     width: 110%;
     height: 110%;
     top: 0;
     left: 0;
     z-index: -1;
-} */
+}
 
 table{
     background-color: #0D1117;
@@ -36,6 +36,10 @@ table{
     margin: auto;
 
     box-shadow: 3px 3px 5px 5px rgba(0,0,0,0.3);
+}
+
+.tableview{
+    width: 90vw;
 }
 
 .radios{
